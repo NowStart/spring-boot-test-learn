@@ -20,6 +20,7 @@ public class SpringBootTestLearnApplicationTests {
 		User user = new User();
 		user.setName("john");
 		user.setAddress("earth");
+
 		userService.add(user);
 	}
 
